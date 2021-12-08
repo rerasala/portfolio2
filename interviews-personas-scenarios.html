@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="images/png" href="images/logo_icon.png"/>
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Nobile&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rohan Erasala's Website</title>
+  </head>
+
+
+<header>
+
+  <script>
+
+      window.addEventListener("resize", function() {
+        if(window.innerWidth >= 800){
+        document.getElementById("navElements").style.display = "flex"
+      } else {
+        document.getElementById("navElements").style.display = "none";
+      }
+      });
+
+    window.addEventListener("load", function() {
+      if(window.innerWidth >= 800){
+        document.getElementById("navElements").style.display = "flex"
+      } else {
+        document.getElementById("navElements").style.display = "none";
+      }
+    }); 
+
+    function displayMenu() {
+      if (document.getElementById("navElements").style.display === "flex") {
+        document.getElementById("navElements").style.display = "none";
+      } else {
+        document.getElementById("navElements").style.display = "flex";
+      }
+
+      if(document.getElementById("button-icon").src === "images/ci_hambuger.png") {
+        document.getElementById("button-icon").src = "images/x_icon.png";
+      }
+    }
+
+    function hideMenu() {
+      
+      document.getElementById("navElements").style.display = "none";
+      
+    }
+
+
+  </script>
+
+  <nav>
+    <a id = "logo" href = "index.html"> RE</a>
+    <div id="navElements">
+      <a class = "navLink" href = "index.html" onclick = hideMenu()>Home</a>
+      <a class = "navLink" href="about.html" onclick="hideMenu()" >About</a>
+      <a class = "navLink current" href="projects.html" onclick="hideMenu()">Projects</a>
+      <a class = "navLink" href="gallery.html" onclick="hideMenu()">Gallery</a>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="displayMenu()">
+      <img id = "button-icon" src="images/ci_hamburger.png" alt = "menu icon"></i>
+    </a>
+  </nav>
+
+</header>
+
+<body>
+  
+  <main id = "home-box">
+
+    <div class="img-box">
+        <img class = "project-img-422" src="images/canvas_header.jpeg" alt="Canvas Header">
+    </div>
+
+    <div class="title">
+
+        
+        <div class="padding"></div>
+
+        <h1>Case Study - Canvas</h1>
+
+        <div class="padding"></div>
+    </div>
+
+    
+    <section id = "white">
+
+        <div class="project-box-422">
+
+            <h4>Context:</h2>
+                <br>
+                <br>
+            <p>
+
+                This was another project I undertook as a part of being in my class SI 422 - Needs Assessment and Usability Evaluation.
+                Our task was to run interviews on real people about their feelings on Canvas, a website that is used by college campuses
+                everywhere. After that, we constructed personas and scenarios based on our interviews.
+                
+                <br>
+                <br>
+                <strong>Duration: </strong> 5 weeks
+                <br>
+                <strong>Team: </strong> Rohan Erasala, Grace Garmo, Anne George, Manasi Sridhar
+                <br>
+                <strong>Position: </strong> Researcher
+
+            </p>
+
+
+        </div>
+
+        <div class="project-box-422">
+
+            <h4>Background:</h2>
+                <br>
+                <br>
+            <p>
+                Canvas is, like it or not, one of the most important softwares on almost every college campus. Canvas hosts our assignments,
+                tests, quizzes, and more! Especially with the advent of the pandemic, canvas has become an even larger part of our 
+                college experiences. Due to Canvas's widespread use throughout our college experiences, it made natural sense to use Canvas for 
+                groupwork. However, Canvas was never a groupwork software. This led us to ask the question - what can we improve about Canvas 
+                to improve it for groupwork?
+
+                <br>
+                <br>
+
+                In order to answer this question we conducted a three step process that included interviews, personas, and scenarios.
+                Each of us interviewed 3 students about their experience with groupwork and canvas. We then constructed personas and scenarios that 
+                lined up with our interviews.
+
+                <br>
+                <br>
+
+            </p>
+
+
+
+        </div>
+
+        <div class="project-box-422">
+
+            <h4>Process and Methods:</h2>
+                <br>
+                <br>
+            <p>
+               <strong>Step 1: Interviews</strong> <br>
+               
+               <br>
+
+               As always, we started out by identifying what the goals of our research were. We settled on two main goals of understanding:
+
+               <br>
+               <br>
+
+
+               <strong>Question 1: </strong>How do students approach group work in their classes?<br>
+               <strong>Question 2: </strong>How could their group work needs be met by a new Canvas feature or integration?<br>
+
+               <br>
+
+               We then constructed out interviews, incorporating 3 grand tour questions, 5 mini tour questions, 5 example 
+               questions, 5 experience questions, and 3 Native-language questions so that our interviews were thorough and 
+               touched all the points we needed them to. To help out our interview process, we also constructed an interview guide
+               which really helped guide the interview and also introduced an important part - the introduction. The introduction 
+               was a key component of our interview because it walked participants through the interview and also made sure that they
+               were ok with everything that was being asked. Our full interview guide can be accessed through the button below, as well as
+               the results of our interview.
+
+               <br><br>
+
+               </p>
+
+               <div id = "view-results" class="button-container">
+                    <a class = "view-content-btn" href="https://docs.google.com/document/d/1RKOA9qWVklhGcGn_701VMqJvA8fp0HhsJdxbBBYaqLM/edit?usp=sharing" target="_blank">View Our 
+                        Interview Guide
+                    </a>
+                </div>
+
+                <br><br>
+
+                <p>
+
+                    When conducting interviews, I switched between being the notetaker, the interviewer, and playing both roles. 
+                    I played a part in conducting three interviews in total. You can view the results of my interviews below.
+
+                    <br>
+                    <br>
+
+                </p>
+
+                <div id = "view-results" class="button-container">
+                    <a class = "view-content-btn" href="https://docs.google.com/document/d/114KWuIMXznW78_4s4Lq-LCM6wYPVCHMjav6s-9VgQWY/edit?usp=sharing" target="_blank">View My
+                        Interview Data
+                    </a>
+                </div>
+
+                <br>
+                <br>
+
+                <p>
+
+                    <strong>Step 1b: Coding Our Data and Affinity Diagraming</strong>
+
+                    <br><br>
+
+                    Before jumping into personas, we coded our interview data. Coding involves identifying key words and phrases that we saw 
+                    across multiple interviews and categorizing them. We combined all of our codes and pulled out the quotes that these codes 
+                    went along with to create our affinity diagram. You can view our embedded affinity diagram below.
+
+                    <br>
+                    <br>
+
+                    2 of the tactics we used while creating this diagram were checking for representativeness and weighting the evidence. We checked for representativeness by making sure that the data we received from participants lined up with what we were seeing in the real world, and we reviewed interviews that we did not help conduct in any way so that a new perspective could be reached. We weighted the evidence by understanding what responses were in the most
+detail and what participants were the most active and engaged in the interviews. We found that these responses helped us a lot more because of the greater detail and descriptions that were given. Therefore, this data was weighted heavier than other data. In addition, some participants were a part of many successful group projects and had valuable insight that others did not.
+                    
+                </p>
+
+                <br>
+                <br>
+                <br>
+
+
+                <iframe src='https://app.mural.co/embed/7ce8a01a-4ac7-4019-970c-4474e574700c'
+                        width='100%'
+                        height='480px'
+                        style='min-width: 640px; min-height: 480px; background-color: #f4f4f4; border: 1px solid #efefef'
+                        sandbox='allow-same-origin allow-scripts allow-modals allow-popups allow-popups-to-escape-sandbox'>
+                </iframe>
+
+                <br>
+                <br>
+
+                <p>
+                    <strong>Step 2: Personas and Scenarios</strong>
+
+                    <br>
+                    <br>
+
+                    The final step in our process involved constructing our personas and scenarios. We ended up constructing two personas and three 
+                    scenarios for each of them - Danny the Disengaged Learner, and Lauren the Organized Leader. You can see our personas below. 
+                    Something we really tried to do with our personas was to represent a broad range of users and demographics so that they encompass the full spectrum of a user base. In order to avoid perpetuating stereotypes that come with personas, it is important to make personas dynamic and diverse so that they do not get pigeonholed into a certain archetype. Just like people have multiple facets to their personalities, personas should too. It is also important that the details of personas are fueled by user data and not by assumptions that come from researchers. Everything stated in a persona should be something that can be evidenced in interview/other data.
+                </p>
+
+                <div id = "view-results" class="button-container">
+                    <a class = "view-content-btn" href="https://docs.google.com/presentation/d/1OIoQjSLoYosKMuwKiFeeXuua9NHrZHiDaw87QI78334/edit?usp=sharing" target="_blank">View Our
+                        Personas and Scenarios Here
+                    </a>
+                </div>
+            
+
+        </div>
+
+        <div class="project-box-422">
+
+            <h4>Outcomes:</h2>
+                <br>
+                <br>
+            <p>
+
+                <strong>Part 1: Analyzing Our Interviews</strong>
+     
+                    <br><br>
+
+                    When I was the note taker, I learned how to have a more conversational tone while watching the other person facilitate the interview. I also learned how to follow up with the interviewee about certain questions and really get down to the root of the answers. An area they really excelled in as an interviewer was in helping the interviewee understand questions and also create a safe space for the interviewee to answer questions without judgement. The interviewer could have done a better job of being brief, and sometimes would over explain things to the interviewee. I could tell that the interviewee in question was looking for a very short interview.
+
+                    <br><br>
+
+                    We were also asked about whether we thought we had reached saturation. I did not think that we reached saturation. For certain questions, it was very easy to reach saturation because most participants in general had the same ideas. However, there are a lot of different perspectives on different questions that could use some more interviews in order to find out these perspectives. In addition, I feel that interviewing a more diverse group of people would also help to seek out new ideas and responses to questions. The topics that were covered best during the interviews included how to communicate with others, how to organize people, and how to plan out projects. Topics that could have used more data included questions that were based around experiences from participants.
+
+                    <br>
+                    <br>
+
+                    The most important takeaway from the interview data is that a lot of the data has similarities which were expanded upon with the codes. These similarities included elements in the planning stages such as delegating tasks and scheduling meetings with group members to achieve assigned tasks. The most surprising part of the data was just how similar it was. It was interesting to see the trends that began to form in the data as interviews progressed. Some assumptions that were validated by this data included steps in the initial planning stages, keys to success in group projects, and issues that faced group members during work. Assumptions I needed to discard included that everyone has the same knowledge of canvas, and the online tools that people used to stay organized.
+
+                    <br>
+                    <br>
+
+                <strong>Part 2: Analyzing our Personas</strong>
+
+                    <br>
+                    <br>
+
+                    I learned that personas should be created to represent a broad range of users and demographics so that they encompass the full spectrum of a user base. In order to avoid perpetuating stereotypes that come with personas, it is important to make personas dynamic and diverse so that they do not get pigeonholed into a certain archetype. Just like people have multiple facets to their personalities, personas should too. It is also important that the details of personas are fueled by user data and not by assumptions that come from researchers. Everything stated in a persona should be something that can be evidenced in interview/other data.
+
+
+
+                    
+
+
+                </p> 
+                    
+
+            </p>
+
+
+            <p>
+
+                <br>  
+
+                <strong>
+                    Next Steps:
+                </strong>
+
+                <br>
+                <br>
+
+                
+                Another round of interviews with a broader scope of users will likely be necessary. I feel that 
+                a severe limiting factor in the success of our interviews was our lack of a diverse user base. 
+                Most of our interviewees fell into the "Lauren the Leader" persona - high achieving students who 
+                have measured success in their group projects. Our lack of a representative user base made it hard 
+                to fully understand what the different personas for our project were and what else we needed to consider
+                besides just the needs of the leader. In order to do this, we may need to spend more time reaching out to
+                people for interviews before conducting them.
+                
+
+                <br>
+                <br>
+
+
+            </p>
+
+        </div>
+      
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p class = "footer-logo">RE</p> 
+    <div class = "sm-links">
+      <a href="https://www.instagram.com/rohan_erasala/" target="_blank">
+        <img class = "sm-icon" src="images/instagram.svg" alt="instagram">
+      </a>
+  
+      <a href="https://www.twitter.com/RErasala/" target="_blank">
+        <img class = "sm-icon" src="images/twitter.svg" alt="twitter">
+      </a>
+
+
+      <a href="https://www.twitter.com/RErasala/" target="_blank">
+        <img class = "sm-icon" src="images/linkedin.svg" alt="LinkedIn">
+      </a>
+
+    </div>
+  </footer>
+  
+</body>
+
+</html>
